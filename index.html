@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css\bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css\font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js\script.js" type="text/javascript"></script>
+    <title>FIFA 17 Survey</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">FIFA 17 Survey</h1>
+        <div id="blanks">
+            <form>
+                <div class="form-group">
+                    <label for="name">Your name</label>
+                    <input id="name" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="born">When were you born?</label>
+                    <input id="born" class="form-control" type="date">
+                </div>
+                <div class="form-group">
+                    <label for="console">On which platform do you play FIFA 17?</label>
+                    <select class="form-control" id="console">
+                       <option value="1">Playstation 4</option>
+                       <option value="2">XBOX ONE</option>
+                       <option value="3">Playstation Three</option>
+                       <option value="4">XBOX 360</option>
+                     </select>
+                </div>
+                <div class="form-group">
+                    <label for="class">What changes should we make to the game in the upcoming FIFA 18 title?</label>
+                    <input id="change" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="cover">Who should be on the FIFA 18 cover?</label>
+                    <div class="radio">
+                        <label>
+                        <input type="radio" name="player" value="ibra" checked>
+                        Zlatan Ibrahimovic
+                      </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                        <input type="radio" name="player" value="coutinho">
+                        Phillipe Coutinho
+                      </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                        <input type="radio" name="player" value="reus">
+                        Marco Reus
+                      </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                        <input type="radio" name="player" value="messi">
+                        Lionel Messi
+                      </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                        <input type="radio" name="player" value="ronaldo">
+                        Cristiano Ronaldo
+                      </label>
+                    </div>
+                </div>
+                <div class="section">
+                    <h4><strong>We would like you to select the colors you would prefer to grace the new FIFA 18 title. (Use the color picker below)</strong></h4>
+                </div>
+                <div class="form-group">
+                    <label for="color1">Select your first color</label>
+                    <input id="color1" class="form-control" type="color">
+                </div>
+                <div class="form-group">
+                    <label for="color2">Select your second color</label>
+                    <input id="color2" class="form-control" type="color">
+                </div>
+
+                <button type="submit" class="btn" onclick="location.href='thanks.html'">Submit!</button>
+            </form>
+        </div>
+
+</body>
+
+</html>

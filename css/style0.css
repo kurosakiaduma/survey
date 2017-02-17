@@ -1,0 +1,9 @@
+body{
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2a9f7141191007.579bdda074582.png");
+    background-size: cover;
+}
+
+#thanks{
+    padding: 70px;
+    margin: 70px;
+}

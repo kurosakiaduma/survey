@@ -1,0 +1,23 @@
+body{
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2a9f7141191007.579bdda074582.png");
+    background-size: cover;
+}
+
+#thanks{
+    padding: 0px;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 460px;
+    margin-bottom: 20px;
+    color: rgb(6, 1, 6)
+}
+
+p.text-faded{
+    font-size:20;
+}
+
+#new{
+    background: url("https://images2.alphacoders.com/714/thumb-1920-714923.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
